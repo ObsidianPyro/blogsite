@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+}
+
+h1, h2, h3, p {
+    font-family: 'Lora', serif;
+    color: rgb(220, 220, 220);
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+a {
+    color: #9e0000;
+}
+
+#leftDiv {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #111111;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #490000;
+}
+
+#rightDiv {
+    margin-left: 20%;
+    background-color: #1b1b1b;
+    height: 2000px;
+    overflow-y: auto;
+}
+
+#profileDiv {
+    box-sizing: border-box;
+    background-color: #004d17;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#centerImage {
+    width: 150px;
+    height: auto; /* to preserve the aspect ratio of the image */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#nav1 {
+    display: block;
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#nav2 {
+    display: block;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
